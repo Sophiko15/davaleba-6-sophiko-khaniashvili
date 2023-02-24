@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: glaho;
+    src: url(../font/bpg_glaho_[FONTS.GE].zip);
+}
+
+body {
+    background-color: #000000;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #C3C3C3;
+}
+
+h1 {
+    font-family: glaho;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 38px 60px;
+}
+
+h1 a {
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+header li a{
+    float: left;
+    margin-right: 15px;
+    color: #ffffff;
+}
+
+nav {
+    margin-top: -60px;
+    margin-left: 800px;
+}
+
+.title {
+    font-family: glaho;
+    color: #ffffff;
+
+    font-size: 128px;
+    letter-spacing: 100px;
+    text-align: center;
+    margin-top: 38px;
+
+}
+
+.pirveli {
+    float: left;
+    padding: 140px 130px 100px 60px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: glaho;
+}
+
+.meore {
+    color: #ffffff;
+    float: left;
+    padding: 140px 130px 100px 60px;
+    font-size: 18px;
+    font-family: glaho;
+}
+
+.mesame {
+    color: #ffffff;
+    padding: 140px 130px 100px 60px;
+    font-size: 16px;
+    font-family: glaho;
+}
+
+.mesame p {
+    padding-bottom: 20px;
+}
+
+.xazi {
+    width: 100%;
+    border-bottom: 1px solid #C3C3C3;
+}
+
+article {
+    margin: 50px 14px 100px 10px;
+    float: left
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+h2 a {
+    font-size: 20px;
+    font-weight: 100px;
+    color: #ffffff;
+    font-family: glaho;
+}
+
+article div {
+    width: 425px;
+    height: 638px;
+    overflow: hidden;
+}
+
+.surati img {
+    width: 100%;
+}
+
+.surati2 img {
+    width: 425px;
+    height: 638px;
+}
+
+.surati3 img {
+    width: 425px;
+    height: 638px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid #C3C3C3;
+    margin-top: 100px;
+    padding: 50px 112px;
+    clear: left;
+}
+
+footer div {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    padding-right: 16px;
+ }    
+footer img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+   float: left;
+
+}
+.rogor {
+    
+    color: #ffffff;
+    font-size: 30px;
+    font-family: glaho;
+   
+}
+footer p a{
+    font-size: 24px;
+    font-family: glaho;
+    color: #ffffff;
+}
+.shevukveto{
+    font-size: 20px;
+    font-family: glaho;
+    display: block;
+    color: #ffffff;
+}
+
+/* meore gverdis dasawyisi */
+
+.meoregverdi{
+    display: flex;
+    justify-content: space-between;
+}
+.imgspage2{
+    width: 200px;
+    margin-left: 0px;
+}
+.surati1{
+    width: 100%;
+     height: 270px;
+     overflow: hidden;
+}
+.surati1 img{
+    width: 100%;
+}
+.imgspage2 p a{
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 80px;
+}
+.mtavari{
+    display: flex;
+
+    padding: 30px;
+}
+
+  .mtavari2{
+    display: flex;
+    padding: 30px;
+    margin: 490px 430px 263px -1555px;
+}
+.page2{
+     width: 450px;
+    height: 132px; 
+    margin: 100px 250px 500px 16px;
+    display: flex;
+     justify-content: space-between;
+} 
+.konverti{
+    width: 124px;
+    height: 24px;
+    
+    font-size: 18px;
+    font-family: glaho;
+    margin-bottom: 10px;
+    margin-left: 120px;
+}
+.konverti2{
+    width: 271px;
+    height: 24px;
+    font-size: 18px;
+    font-family: glaho;
+    
+    margin-bottom: 10px;
+    
+    
+}
+.konverti3{
+    margin-left: 90px;
+   
+}
+.page2 ul li a{
+    color: #ffffff;
+} 
+
+/* meore gverdis dasastuli */
+/* mesame gverdis dasawyisi */
+
+.flex{
+    display: flex;
+}
+.page3{
+    width: 952;
+    margin: 92px 0 92px 60px;
+    align-items: flex-start;
+    
+}
+.imgpage3{
+    width: 400px;
+    height: 540px;
+    overflow: hidden;
+}
+.imgpage3 img{
+width: 100%;
+}
+.textpage3{
+    width: 528px;
+    height: 540px;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+.maincolor{
+    width: 140px;
+    
+}
+.ferebi{
+    width: 374px;
+    color: #ffffff;
+    
+}
+.colorbox{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #f5e024;
+}
+.colorbox2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #321cf1;
+}
+.colorbox3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #e9260c;
+}
+.colorbox4{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.ferebi p{
+    font-size: 20px;
+}
+.sheukvete{
+    margin-top: 400px;
+    font-size: 20px;
+}
+/* mesane gverdis dasasruli */
